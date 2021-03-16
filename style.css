@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+}
+
+.nav{
+  background-color: #C3ECEB;
+  position: sticky;
+  width: 100%;
+  height: 8vh;
+  margin: 0;
+}
+
+.name{
+  padding-left: 2vh;
+  padding-top: 0.5vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #4D4D4D;
+}
+
+.name h2{
+  font-size: 5vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #293231;
+}
+
+.nav_options{
+  position: relative;
+  float: right;
+  top: -4.6vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+.nav_options a{
+  padding-left: 0.5vh;
+  padding-right: 2vh;
+  text-decoration: none;
+  font-size: 3.5vh;
+  color: #293231;
+}
+
+
+.home{
+  width: 100%;
+  height: 92vh;
+  position: relative;
+  background-color: #C3ECEB;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🦋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
+}
+
+.one{
+  background-color: #FFFCBD;
+  height: 40vh;
+  width: 50vh;
+  position: relative;
+  top: 4vh;
+  left: 0vh;
+}
+
+.one img{
+  transform: scale(0.52);
+  position: relative;
+  top: -17.7vh;
+  left: -22.8vh;
+}
+
+.two{
+  background-color: white;
+  height: 35vh;
+  width: 56.5vh;
+  position: relative;
+  top: -65vh;
+  left: 33vh;
+  border: 1vh solid #C3ECEB;
+  font-family: 'Montserrat', sans-serif;
+  color: #676767;
+  text-align: justify;
+}
+
+.two p{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  font-size: 2.3vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #676767;
+  text-align: justify;
+}
+
+.three{
+  background-color: #FFFCBD;
+  height: 55vh;
+  width: 47vh;
+  position: relative;
+  top: -22vh;
+  left: 88vh;
+}
+
+.three img{
+  transform: scale(0.7);
+  position: relative;
+  top: -15vh;
+  left: -15vh;
+}
+
+.sust{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #FFFFFF;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🦋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.sbox{
+  background-color: #C3ECEB;
+  height: 80vh;
+  width: 40vh;
+  position: relative;
+  top: 20vh;
+  left: 0vh;
+}
+
+.stext{
+  background-color: #FFFFFF;
+  height: 0.1vh;
+  width: 61vh;
+  float: right;
+  align-self: center;
+  position: relative;
+  top: -54vh;
+  right: 7.5vh;
+}
+
+.stext h1{
+  font-size: 5vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  text-align: left;
+  position: relative;
+}
+
+.stext p{
+  font-size: 2.3vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #676767;
+  text-align: justify;
+  position: relative;
+  top: 1vh;
+}
+
+.sgif{
+  transform: scale(0.7);
+  position: relative;
+  top: -60vh;
+  left: -10vh;
+}
+
+.simg{
+  transform: scale(0.4);
+  position: relative;
+  top: -170vh;
+  left: -8.5vh;
+}
+
+.fugo{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #FFFFFF;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🦋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
+}
+
+.fbox{
+  background-color: #DBF5D1;
+  height: 45vh;
+  width: 66vh;
+  position: relative;
+  top: 44vh;
+  left: 88vh;
+}
+
+.ftext{
+  background-color: #FFFFFF;
+  height: 0.1vh;
+  width: 52vh;
+  position: relative;
+  top: -23vh;
+  left: 14vh;
+}
+
+.ftext h1{
+  font-size: 5vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  text-align: left;
+  position: relative;
+}
+
+.ftext p{
+  font-size: 2.3vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #676767;
+  text-align: justify;
+  position: relative;
+  top: 0.7vh;
+}
+
+.fgif{
+  transform: scale(0.7);
+  position: relative;
+  top: -47vh;
+  left: 80vh;
+}
+
+.fimg{
+  transform: scale(0.4);
+  position: relative;
+  top: -100vh;
+  left: 80vh;
+}
+
+.idk{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #FFFFFF;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🦋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
+}
+
+.box{
+  background-color: #FFFCBD;
+  height: 60vh;
+  width: 60vh;
+  position: relative;
+  top: 0vh;
+  left: 5vh;
+}
+
+.text{
+  background-color: #FFFFFF;
+  height: 0.1vh;
+  width: 53.5vh;
+  position: relative;
+  top: -40vh;
+  left: 95vh;
+}
+
+.text h1{
+  font-size: 5vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  text-align: left;
+  position: relative;
+}
+
+.text p{
+  font-size: 2.3vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #676767;
+  text-align: justify;
+  position: relative;
+  top: 0.7vh;
+}
+
+.img{
+  transform: scale(0.7);
+  position: relative;
+  top: -40vh;
+  left: 0vh;
+}
+
+.button_slide_s {
+  color: #676767;
+  border: 2px solid #C3ECEB;
+  border-radius: 0vh;
+  padding: 1vh 1vh;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4vh;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #C3ECEB;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  position: relative;
+  top: -163vh;
+  left: 66.3vh;
+}
+
+.button_slide_s a{
+  text-decoration: none;
+  color: #676767;
+}
+
+.slide_down_s:hover {
+  box-shadow: inset 0 100px 0 0 #C3ECEB;
+}
+
+#outer_s {
+  width: 30vh;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+
+.butt_f {
+  color: #676767;
+  border: 2px solid #DBF5D1;
+  border-radius: 0vh;
+  padding: 1vh 1vh;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4vh;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #DBF5D1;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  position: relative;
+  top: -130vh;
+  left: -20.3vh;
+  transform: translateZ(100px);
+}
+
+.butt_f a{
+  text-decoration: none;
+  color: #676767;
+}
+
+.sli_f:hover {
+  box-shadow: inset 0 100px 0 0 #DBF5D1;
+}
+
+#outer_f {
+  width: 30vh;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.butt_ {
+  color: #676767;
+  border: 2px solid #FFFCBD;
+  border-radius: 0vh;
+  padding: 1vh 1vh;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4vh;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #FFFCBD;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  position: relative;
+  top: -75vh;
+  left: 20.3vh;
+  transform: translateZ(100px);
+}
+
+.butt_ a{
+  text-decoration: none;
+  color: #676767;
+}
+
+.sli_:hover {
+  box-shadow: inset 0 100px 0 0 #FFFCBD;
+}
+
+#outer_ {
+  width: 30vh;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.name h1 {
+  font-size: 30px;
+}
+
+.text_1 {
+  animation: text1;
+}
+
+.text_2 {
+  animation: text2;
+}
+
+.text_1, .text_2 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 15s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+.text_1::after, .text_2::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text2 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+
+  60%, 90% {
+    width: 5em;
+  }
+}
+
+@keyframes text1 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 10em;
+  }
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+.bg {
+  background-color: #DBF5D1;
+  width: 100%;
+  height: 50vh;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🦋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
+}
+
+@mixin clearfix {
+   &:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+}
+
+.align-center {
+   text-align: center;
+}
+
+.row {
+   @include clearfix;
+   margin: -20px 0;
+   .col {
+      padding: 0 20px;
+      float: left;
+      box-sizing: border-box;
+      &.x-50 {
+         width: 50%;
+      }
+      &.x-100 {
+         width: 100%;
+      }
+   }
+}
+
+.content-wrapper {
+   min-height: 100%;
+   position: relative;
+}
+
+.get-in-touch {
+   max-width: 650px;
+   margin: 0 auto;
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+
+  .title {
+     text-align: center;
+     font-family: Montserrat, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-size: 36px;
+     line-height: 48px;
+     padding-bottom: 48px;
+  }
+
+
+.contact-form {
+   .form-field {
+      position: relative;
+      margin: 32px 0;
+   }
+   .input-text {
+      display: block;
+      width: 100%;
+      height: 36px;
+      border-width: 0 0 2px 0;
+      border-color: #000;
+      font-family: Montserrat, sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+
+      &:focus {
+         outline: none;
+      }
+
+      &:focus,
+      &.not-empty {
+         + .label {
+            transform: translateY(-24px);
+         }
+      }
+   }
+   .label {
+      position: absolute;
+      left: 20px;
+      bottom: 11px;
+      font-family: Montserrat, sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 400;
+      color: #888;
+      cursor: text;
+      transition: transform .2s ease-in-out;
+   }
+
+   .submit-btn {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+   }
+}
